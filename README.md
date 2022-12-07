@@ -1,1 +1,0 @@
-# O-somin.github.io
