@@ -10,6 +10,9 @@
         width: 13.755vw;
         margin: 0 auto;
     }
+    .m-portimg {
+        display: none;
+    }
 }
 @media screen and (max-width:996px) {
     /* 폰트 */
@@ -48,7 +51,12 @@
         width: 22.6px;
         margin-right: 22px;
         background-color: transparent;     
+        border: none;
     }
+    .m-portimg {
+        display: none;
+    }
+
     .m-burger span {
         width: 24px;
         height: 2px;
@@ -117,7 +125,6 @@
         flex-direction: column;
         justify-content: center;
     }
-
     .insath img {
         order: 1;
         margin-bottom: 23px;
@@ -125,12 +132,10 @@
         min-width: initial; 
         /* 속성값 초기화 */
     }
-
     .insap {
         order: 2;
         text-align: center;
     }
-
     .insap p {
         font-size: clamp(2.1875rem, 0.942rem + 5.314vw, 4.25rem);
         text-shadow: -3px 3px 0px #151515;
@@ -173,14 +178,28 @@
         margin-bottom: 25px;
     }
     /* portfolio */
-    .port_desc{
-        display: block;
+    .port_desc img{
+        /* display: block; */
+        display: inline;
+        order: 2;
+    }
+    .m-portimg {
+        width: 72.663vw;
+        margin-bottom: 9.345vw;
+    }
+    .port_desc_th h3{
+        order: 1;
+    }
+    .port_desc_th h4{
+        order: 3;
+    }
+    img.port_img {
+        display: none;
     }
     /* footer */
     .name {
         text-shadow: -7px 7px 0px #151515;
         display: block; 
     }
-
 
 }

@@ -39,12 +39,11 @@ body {
     --yellow:#FFC500;
 }
 
-button {
+
+.port_btn {
     background-color: none;
     border: 0;
     cursor: pointer;
-}
-.port_btn {
     font-size: 20px;
     color: #fff;
     background-color: var(--orange);
@@ -53,6 +52,8 @@ button {
     box-shadow: -4px 4px 0 #000;
     transition-duration:0.3s ;
     margin-top: 20px;
+    display: block;
+    width: fit-content;  
 }
 .port_btn:active {
     margin-left: -4px;
