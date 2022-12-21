@@ -193,10 +193,20 @@
     .port_desc_th h4{
         order: 3;
     }
+    .port_desc_th h5 {
+        width: 100%;
+    }
     img.port_img {
         display: none;
     }
+    .port_btn {
+        position: absolute;
+        right: 0;
+    }
     /* footer */
+    .footer {
+        margin-top: 250px;
+    }
     .name {
         text-shadow: -7px 7px 0px #151515;
         display: block; 
