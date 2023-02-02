@@ -1,0 +1,481 @@
+@media screen and (max-width:1160px) {
+    section {
+        margin-bottom: 150px;
+    }
+    .headercontainer {
+        width: 95vw;
+    }
+    nav ul {
+        width: 57vw;
+    }
+    .m-login {
+        display: none;
+    }
+    .hanja1, .hanja2 {
+        display: none;
+    }
+    .hanja_m {
+        display: inline;
+    }
+    .intro-story {
+        flex-direction: column;
+    }
+    section.intro.title{
+        width: 310px;
+        margin-bottom: 40px;
+    }
+    section.intro h2 {
+        justify-content: flex-start;
+    }
+    .hanja_m {
+        width: 100%;
+    }
+    .introbody {
+        margin: 0;
+        width: 40vw;
+    }
+    .intro-v {
+        height: 30vh;
+        margin-left: 3vw;
+        padding-bottom: calc(45vw * 324/507);
+        min-width: 450px;
+    }
+    section.intro {
+        padding-top: 5px;
+        align-items: flex-end;
+    }
+    section.intro h4 {
+        font-size: 20px;
+    }
+    .introbody p {
+        font-size: 15px;
+    }
+    .event h5 {
+        font-size: clamp(1.1875rem, 0.4284rem + 1.2195vw, 1.3125rem); /*19~21*/
+    }
+    .date.row {
+        font-size: 12px;
+    }
+    .swiper-wrapper h1{
+        font-size: clamp(2.0625rem, 1.8717rem + 0.2632vw, 2.1875rem);
+    }
+    .swiper-wrapper h2{
+    }
+}
+
+/* 타블렛 */
+@media screen and (max-width:996px) {
+    ul.login{
+        display: none;
+    }
+    .m-login {
+        display: block;
+    }
+    nav ul {
+        width: 63.849vw;
+        font-size: clamp(0.875rem, 0.749rem + 0.4032vw, 1rem);
+    }
+    a.logo {
+        width: 13vw;
+        margin-right: 4.46vw;
+        min-width: 12.57vw;
+    }
+    .headercontainer {
+        width: 90vw;
+    }
+    ul.roomlists {
+        width: 70%;
+        justify-content: space-between;
+        margin-top: 37px;
+        margin-right: 12px;
+    }
+    ul.roomlists li {
+        font-size: 14px;
+    }
+    button.reserve_normal {
+        margin-bottom: 0;
+    }
+    .room .reserve_normal {
+        padding: 1.343vw 5.269vw;
+    }
+    .roompage1, 
+    .roompage2,
+    .roompage3,
+    .roompage4,
+    .roompage5 {
+        padding-right: 33px;
+    }
+    .roomintroduce1  {
+        margin-left: 3.409vw;
+    }
+    .swiper-wrapper h1 {
+        font-size: clamp(1.75rem, 1.5592rem + 0.2632vw, 1.875rem);
+    }
+    .swiper-wrapper h2 {
+        font-size: clamp(1rem, 0.648rem + 0.7663vw, 1.125rem);
+    }
+    .roomintroduce1 h1{
+        font-size: 28px;
+    }
+    .roomintroduce1 h2{
+        font-size: 17px;
+        margin: 1.963vw 0 2.273vw;
+    }
+    .roomintroduce1 p{
+        width: 37.125vw;
+        font-size: 15px;
+    }
+    .swiper.room-img {
+        width: 60%;
+        height: 0;
+        padding-bottom: calc(60% * 282/515);
+        border: 1px solid red;
+    }
+
+}
+/* 타블렛도 아니고~모바일도 아니고~ 메뉴만 사라지게 애매한~~width */
+@media screen and (max-width:735px) {
+    nav {
+        display: none;
+    }
+    a.logo {
+        width: 112px;
+        height: 48px;
+        margin-left: 12px;
+    }
+    .headercontainer {
+        width: auto;
+    }
+    .m-login.burger {
+        display: block;
+        width: 22.6px;
+        margin-right: 22px;
+    }
+    .m-login.burger span {
+        width: 24px;
+        height: 2px;
+        display: block;
+        margin-bottom: 7px;
+        background-color: #fff;
+    }
+    section.mainv {
+        background: url('image/header.jpg') no-repeat 65% top / 500%;
+    }
+    section.mainv::before {
+        background-color: rgba(0,0,0,.60);
+    }
+    .maincontent {
+        width: 100%;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    button.reserve_main {
+        padding: 18px 9.21vw;
+        border: 1px solid #fff;
+    }
+    h1 {
+        font-size: clamp(1.875rem, 1.875rem + 0.5442vw, 2.125rem); /*30~34*/
+        margin-bottom: 35px;
+    }
+    .maincontent h1 {
+        font-weight: 300;
+        text-align: center;
+    }
+    .maincontent p {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 160%;
+        margin-bottom: 20vh;
+    }
+    .intro-v {
+        display: none;
+    }
+    .intro.row {
+        display: block;
+    } 
+    .introbody {
+        width: 90vw;
+    }
+    section.intro .title {
+        width: 90vw;
+        text-align-last: left;
+        margin-bottom: 20px;
+    }
+    section.intro .title img {
+        width: 36.68vw;
+        min-width: 157px;
+        /* 너비가 36.68vw 이되 157px보다는 작아지지마 */
+    }
+    .intro-story {
+        align-items: center;
+    }
+    h2 {
+        font-size: 22px;
+        padding-bottom: 2px;
+    }
+
+    /* ----경원재 이벤트----- */
+
+    section.event {
+        width: 100%;
+    }
+    ul.eventlists.row {
+        flex-direction: column;
+    }
+    ul.eventlists.row li {
+        width: 100%;
+    }
+
+    p.eventdesc ,
+    .titlecontainer,
+    .event h5,
+    h5,
+    .event p,
+    .date.row {
+        margin: 0 4vw;
+    }
+    .eventdesc{
+        font-size: 15px;
+        padding-top: 18px;
+        font-weight: 500;
+    }
+    .date.row {
+        width: calc(100% - 4vw);
+        font-size: 16px;
+    }
+    .date,
+    .date a {
+        font-size: 12px;
+    }
+    
+    .date span:first-child, .date a {
+        margin-right: 18px;
+    }
+    .event h5 {
+        margin: 40px 4vw 15px; 
+        font-size: 18px;
+    }
+    .event p {
+        font-size: 15px;
+    }
+    .eventth {
+        font-weight: 300;
+    }
+    .eventlists li:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    /* ----room----- */
+    
+    /* 슬라이더 */
+    .room-content.row {
+        flex-direction: column-reverse; /*플렉스요소(가로)를 세로로*/
+    }
+    .swiper.room-img {
+        width: 100%;
+        padding-bottom: calc(100% * 422/770);
+    }
+    .swiper.room-info {
+        width: 100%;
+    }
+    ul.roomlists {
+        display: none;
+    }
+    .roomintroduce1 {
+        margin-left: 0;
+    }
+    .reserve_normal {
+        display: none;
+    }
+    .m-reserve {
+        width: fit-content;
+        padding: 10px 44px;
+        border:1.5px solid var(--light);
+        color: var(--light);
+        margin: 0 auto;
+        margin-top: 6.635vh;
+        display: block;
+    }
+    .m-login {
+        display: none;
+    }
+    .combobox {
+        display: block;
+    }
+    .swiper-slide {
+        margin-bottom: 40px;
+    }
+    .swiper-slide h1 {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 19px;
+    }
+    .swiper-slide h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    .swiper-slide a.more {
+        font-size: 12px;
+        position: relative;
+        font-size: 12px;
+        /* right: 4vw; */
+        display: block;
+        margin-left: auto;
+    }
+    .roomintroduce4 h2 {
+        font-size: 17px;
+    }
+    .roompage1 {
+        padding-top: 30px;
+    }
+    .roomintroduce1 p,
+    .roomintroduce2 p,
+    .roomintroduce3 p,
+    .roomintroduce4 p,
+    .roomintroduce5 p
+    {
+        width: 100%;
+        font-size: 15px;
+        margin: 0;
+        line-height: 165%;
+    }
+    .roompage1,
+    .roompage2,
+    .roompage3,
+    .roompage4,
+    .roompage5 {
+        /* margin-top: 30px; */
+    }
+
+    .titlecontainer {
+        width: 45%;
+    }
+
+/* ----오시는 길----- */
+    .contact .titlecontainer {
+        width: 88%;
+        margin: 0;
+    }
+    .road h2{
+        margin-right: 70px;
+    }
+    .road .titlecontainer p {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .road_desc{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 33px;
+        margin-top: 18px;
+    }
+    .road_desc br {
+        display: none;
+    }
+    .mapbox {
+        flex-wrap: wrap;
+    }
+    .map iframe {
+        width: 91.121vw;
+        height: 34.952vh;
+    }
+    .mapdesc {
+        margin: 0;
+        margin-top: 3.436vh;
+    }
+    .mapdesc li {
+        margin-bottom: 10px;
+    }
+    .mapdesc li h5{
+        font-size: 17px;
+        line-height: 183.2%;
+        margin: 0;
+    }
+    .mapdesc li p {
+        font-size: 15px;
+    }
+/* ---footer */
+    .footer {
+        flex-wrap: wrap;
+    }
+    .inner {
+        padding: 0;
+    }
+    .footer img {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+        width: 42.757vw;
+        padding-bottom: 25px;
+    }
+    .footer_desc p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .membership {
+        display: none;
+    }
+    .footer_desc1 {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .footer_desc1 p {
+        position: relative;
+        padding: 0 20px;
+        margin: 0;
+        margin-bottom   : 19px;
+    }
+    .footer_desc1 p::after{
+        display: block;
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 20px;
+        /* left: 660px;
+        top: 5658px; */
+        right: 0;
+        background-color: #b1b8b8;
+        margin-top: -15px;
+    }
+    .footer_desc1 span {
+        display: none;
+    }
+    .footer_desc1 p:last-child::after {
+        display: none;
+    }
+    .footer_desc1 p:nth-child(3)::after {
+        display: none;
+    }
+
+    .footer_desc2 span {
+        border: none;
+    }
+    .footer_desc2 {
+        display: block;
+        line-height: 183.2%;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+    .m-br {
+        display: inline;
+    }
+}   
+
+/* 모바일 */
+
+/* @media screen and (max-width:768px){
+    m-login {
+        
+    }
+} */
