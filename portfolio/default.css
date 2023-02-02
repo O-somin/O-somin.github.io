@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic+Coding&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-font-smoothing:antialiased;
+    /* 브라우저마다 폰트체 다른거 유지해주기 */
+    -moz-osx-font-smoothing:grayscale;
+    /* 사파리 아이폰 폰트체 유지 */
+}
+.en {
+    font-family: 'Black Han Sans', sans-serif;
+}
+.lasten {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+}
+.inner {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+
+:root {
+    --pink:#FFC3DE;
+    --orange:#EA4715;
+    --bk:#151515;
+    --green:#018C47;
+    --yellow:#FFC500;
+}
+
+button {
+    background-color: none;
+    border: 0;
+    cursor: pointer;
+}
+.port_btn {
+    font-size: 20px;
+    color: #fff;
+    background-color: var(--orange);
+    padding: 15px 23px;
+    border-radius:14px ;
+    box-shadow: -4px 4px 0 #000;
+    transition-duration:0.3s ;
+    display: block;
+    width: fit-content;
+}
+.port_btn:active {
+    margin-left: -4px;
+    margin-right: -4px;
+    box-shadow: none;
+}
+.row {
+    display: flex;
+}
+
+section {
+    margin-bottom: 280px;
+}
+/* 제목 */
+.insa p {
+    color: var(--orange);
+    text-shadow: -5px 5px 0px #151515;
+}
+.insa h2 {
+    font-weight: 500;
+    color: #EA4715;
+}
+.upper {
+    text-transform: uppercase;
+}
+h1 {
+    font-family: 'Black Han Sans', sans-serif;
+    text-shadow: -6px 7px 0px #000;
+    font-size: clamp(2.1875rem, 1.9118rem + 0.4902vw, 2.5rem);
+    /*40~35*/
+    /* font-size: clamp(1.375rem, 0.6382rem + 2.7542vw, 2.1875rem); */
+    /* 모바일 35-22 */
+    color: var(--green);
+    text-align: center;
+}
+/* about me 글씨 */
+h2 {
+    font-size: clamp(1.6875rem, 0.5187rem + 0.974vw, 1.125rem);
+    /*27~18*/
+}
+/* 포트폴리오 */
+h3 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+}
+h4 {
+    font-weight: 600;
+    font-size: 17px;
+}
+h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+
