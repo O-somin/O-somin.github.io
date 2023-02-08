@@ -40,7 +40,29 @@
     .logo p {
         font-size: 22px;
     }
-     .insap p{
+    .gnb {
+        width: 31.833vw;
+        padding: 120px 0px 0px 30px;
+    }
+    .gnb li a {
+        font-size: 22px;
+    }
+    .close-btn {
+        display: none;
+    }
+    .m-close {
+        display: block;
+        width: 24px;
+        display: inline-block;  
+        background: none;   
+        padding-right: 0;   
+        position: absolute;
+        top: 15px;
+    }
+    .m-close img {
+        width: 100%;
+    }
+    .insap p{
         font-size: 68px;
     }
     .insa h2 {
@@ -57,6 +79,12 @@
         width: 14vw;
         margin: 0 auto;
     }
+    .skill_in p {
+        font-size: 11px;
+    }
+    .skill_in li {
+        margin-bottom: 25px;
+    }
     /*   portfolio    */
     .port {
         border-radius: 23px;
@@ -72,7 +100,7 @@
     .port_desc {
         padding: 45px 27px;
     }
-        /* footer */
+    /* footer */
     .name {
         font-size: clamp(6.25rem, 0.5564rem + 9.1463vw, 7.1875rem);
         /* 115~100 */
@@ -110,22 +138,19 @@
         /* 12~14 */
     }
     /* 헤더 */
-    .headercontainer {
-    }
+
     .pc-btn {
         display: none;
     }
     .gnb {
         width: 30.120vw;
-        padding: 30px 0 0 30px;
+        padding: 110px 0 0 30px;
     }
     .gnb ul li a{
         font-size: 18px;
     }
-    .close-btn {
-        font-size: 14px;
-        padding: 11px 14px;
-        border-radius: 4px;
+    .m-close {
+        width: 20px;
     }
     /* 인사 */
     .insap {
