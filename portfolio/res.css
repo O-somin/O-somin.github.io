@@ -7,7 +7,14 @@
     h2 {
         font-size: 18px;
     }
-    p {
+    h3 {
+        font-size: clamp(1.75rem, 0.9909rem + 1.2195vw, 1.875rem);
+        /* 30~28 */
+    }
+    h4 {
+        font-size: 14px;
+    }
+    h5,p {
         font-size: 13px;
     }
     /*   헤더   */
@@ -39,22 +46,41 @@
     .insa h2 {
         font-size: 15px;
     }
-    //
     .inner {
         width: 89.959vw;
     }
+    /*   about me   */
     .about_ul {
         width: 100%;
     }
     .about_ul img {
-        width: 11.81vw;
+        width: 14vw;
         margin: 0 auto;
+    }
+    /*   portfolio    */
+    .port {
+        border-radius: 23px;
+    }
+    .port_btn {
+        font-size: 14px;
+        padding: 11px 16px;
+        border-radius: 8px;
     }
     .m-portimg {
         display: none;
     }
     .port_desc {
         padding: 45px 27px;
+    }
+        /* footer */
+    .name {
+        font-size: clamp(6.25rem, 0.5564rem + 9.1463vw, 7.1875rem);
+        /* 115~100 */
+        text-shadow: -11px 9px 0px #151515;
+    }
+    .thank {
+        font-size: clamp(1.875rem, 0.3567rem + 2.439vw, 2.125rem);
+        /* 35~30 */
     }
 }
 @media screen and (max-width:996px) {
