@@ -1,5 +1,16 @@
 /* 타블렛 */
 @media screen and (max-width:1160px) {
+    h1 {
+        font-size: 35px;
+        text-shadow: -4px 4px #000;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 13px;
+    }
+    /*   헤더   */
     .pc-btn {
         display: none;
     }
@@ -16,6 +27,19 @@
         margin-bottom: 7px;
         background-color: var(--orange);
     }
+    .headercontainer {
+        padding: 15px;
+    }
+    .logo p {
+        font-size: 22px;
+    }
+     .insap p{
+        font-size: 68px;
+    }
+    .insa h2 {
+        font-size: 15px;
+    }
+    //
     .inner {
         width: 89.959vw;
     }
