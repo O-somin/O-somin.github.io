@@ -1,10 +1,26 @@
 /* 타블렛 */
 @media screen and (max-width:1160px) {
-    .about_ul {
-        width: 100%;
+    .pc-btn {
+        display: none;
+    }
+    .m-burger {
+        display: block;
+        width: 22.6px;
+        margin-right: 22px;
+        background-color: transparent;     
+    }
+    .m-burger span {
+        width: 24px;
+        height: 2px;
+        display: block;
+        margin-bottom: 7px;
+        background-color: var(--orange);
     }
     .inner {
         width: 89.959vw;
+    }
+    .about_ul {
+        width: 100%;
     }
     .about_ul img {
         width: 11.81vw;
@@ -48,19 +64,6 @@
     }
     .pc-btn {
         display: none;
-    }
-    .m-burger {
-        display: block;
-        width: 22.6px;
-        margin-right: 22px;
-        background-color: transparent;     
-    }
-    .m-burger span {
-        width: 24px;
-        height: 2px;
-        display: block;
-        margin-bottom: 7px;
-        background-color: var(--orange);
     }
     .gnb {
         width: 30.120vw;
