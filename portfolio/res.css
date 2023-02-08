@@ -13,6 +13,9 @@
     .m-portimg {
         display: none;
     }
+    .port_desc {
+        padding: 45px 27px;
+    }
 }
 @media screen and (max-width:996px) {
     /* 폰트 */
