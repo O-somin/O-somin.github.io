@@ -287,7 +287,7 @@ font-size: 25px;
     font-size: clamp(6.25rem, 0.8604rem + 8.658vw, 11.25rem);
     /* 180-100 */
     color: var(--pink);
-    text-shadow: -26px 26px 0px #151515;
+    text-shadow: -1.354vw 1.354vw 0px #151515;
     position: absolute;
     top: 0%;
     left: 50%;
