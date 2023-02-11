@@ -29,14 +29,15 @@ header {
 /* 버튼 */
 
 .pc-btn {
-    font-size: 20px;
+    font-size: clamp(0.9375rem, 0.6006rem + 0.5411vw, 1.25rem);
     color: #fff;
     background-color: var(--orange);
-    padding: 15px 23px;
-    border-radius:14px ;
+    padding: 0.781vw 1.197vw;
+    border-radius: 0.729vw;
     box-shadow: -4px 4px 0 #000;
-    transition-duration:0.3s ;
+    transition-duration: 0.3s;
     cursor: pointer;
+    
 }
 .pc-btn:active {
     margin-left: -4px;
