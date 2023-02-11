@@ -93,6 +93,7 @@ h1 {
 /* about me 글씨 */
 h2 {
     font-size: clamp(1.6875rem, 0.5187rem + 0.974vw, 1.125rem);
+    color:var(--bk);
     /*27~18*/
 }
 /* 포트폴리오 */
@@ -100,14 +101,17 @@ h3 {
     font-family: 'Black Han Sans', sans-serif;
     font-size: 50px;
     font-weight: normal;
+    color:var(--bk);
 }
 h4 {
     font-weight: 600;
     font-size: 17px;
+    color:var(--bk);
 }
 h5 {
     font-size: 15px;
     font-weight: 400;
+    color:var(--bk);
 }
 
 
