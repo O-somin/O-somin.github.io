@@ -110,11 +110,11 @@ section.intro .title {
 }
 section.intro .title img.hanja1 {
     width: 100%;
-    min-width: 256px;
+    min-width: 160px;
 }
 section.intro .title img.hanja2 {
     width: 50%;
-    min-width: 128px;
+    min-width: 80px;
 }
 .introbody {
     width: 24.16vw;
@@ -554,21 +554,21 @@ footer {
 }
 
 .footer_desc1 {
-    align-items: center;
-    margin-bottom: 19px;
-}
-.footer_desc1 {
     width: 939px;
     border-bottom: 1px solid #B1B8B8;
     padding-bottom: 19px;
-}
-.footer_desc1 p {
-    margin: 0 20px;
+    align-items: center;
+    margin-bottom: 19px;
 }
 .footer_desc1 p{
+    position: relative;
+    padding: 0 20px;
+    margin: 0 20PX;
     color: #767C7D;
     font-size: 18px;
 }
+.footer_desc2 p {
+    font-size:18px;
 .footer_desc span {
     width: 20px;
     height: 0px;
@@ -579,11 +579,6 @@ footer {
 }
 .m-br {
     display: none;
-}
-.footer_desc1 p {
-    position: relative;
-    padding: 0 20px;
-    margin: 0;
 }
 .footer_desc1 p::after{
     display: block;
