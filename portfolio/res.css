@@ -316,7 +316,7 @@
     }
     .port_desc {
         width: 100%;
-        padding: 26px 21px 14px 21px;
+        padding: 26px 21px 50px 21px;
         display: block;
         justify-content: none;
     }
@@ -337,7 +337,7 @@
         margin: 0;
         position: absolute;
         left: 77%;
-        top: 90%;
+        top: 93%;
     }
 
     /* footer */
