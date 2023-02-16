@@ -554,7 +554,7 @@ footer {
 }
 
 .footer_desc1 {
-    width: 939px;
+    width: 97%;
     border-bottom: 1px solid #B1B8B8;
     padding-bottom: 19px;
     align-items: center;
@@ -563,7 +563,7 @@ footer {
 .footer_desc1 p{
     position: relative;
     padding: 0 20px;
-    margin: 0 20PX;
+    margin: 0;
     color: #767C7D;
     font-size: 18px;
 }
