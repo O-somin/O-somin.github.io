@@ -116,7 +116,7 @@ font-size: 25px;
     padding-top: 121px;
 }
 .insa p {
-    font-size: clamp(4.25rem, 2.4853rem + 3.1373vw, 6.25rem);
+    font-size: clamp(6.25rem, 0.8604rem + 8.658vw, 11.25rem);
     /*100~68*/
     margin-bottom: 1.041vw;
 }
@@ -124,7 +124,8 @@ font-size: 25px;
     font-size: clamp(1.25rem, 0.6006rem + 0.5411vw, 0.9375rem);
 }
 .insap {
-    
+font-size: clamp(6.25rem, 0.8604rem + 8.658vw, 11.25rem);  
+	/*180~100*/
 }
 .insa img {
     width: calc(100vw * 485 / 1920); 
