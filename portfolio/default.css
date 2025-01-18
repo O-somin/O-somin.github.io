@@ -71,7 +71,7 @@ section {
 /* 제목 */
 .insa p {
     color: var(--orange);
-    text-shadow: -5px 5px 0px #151515;
+    text-shadow: -20px 20px 0px #151515;
 }
 .insa h2 {
     font-weight: 500;
