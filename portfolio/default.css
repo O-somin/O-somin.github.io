@@ -75,7 +75,7 @@ section {
 }
 .insa h2 {
     font-weight: 500;
-    color: #EA4715;
+    color: var(--bk);
 }
 .upper {
     text-transform: uppercase;
