@@ -124,7 +124,7 @@ font-size: 25px;
     font-size: clamp(1.25rem, 0.6006rem + 0.5411vw, 0.9375rem);
 }
 .insap {
-font-size: clamp(6.25rem, 0.8604rem + 8.658vw, 11.25rem);  
+font-size: 180pt;
 	/*180~100*/
 }
 .insa img {
